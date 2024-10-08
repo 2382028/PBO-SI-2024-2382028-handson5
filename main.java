@@ -77,6 +77,7 @@ public class main {
         return true;
     }
 
+    
     public static boolean isSelectedToDoNotValid(Integer number) {
         if (number <= 0 || number - 1 > todos.length - 1 || todos[number - 1] == null) {
             return true;
